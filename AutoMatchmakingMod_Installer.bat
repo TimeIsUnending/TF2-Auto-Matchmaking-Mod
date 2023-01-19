@@ -17,5 +17,5 @@ curl -LO https://github.com/TimeIsUnending/TF2-Auto-Matchmaking-Mod/releases/dow
 tar -xf TimeIsUnending.AutoMatchmaking.1.0.4.zip
 del TimeIsUnending.AutoMatchmaking.1.0.4.zip
 cd ../../..
-echo -multiple -norestrictservercommands +ns_has_agreed_to_send_token 2 > ns_startup_args.txt
+echo -multiple -norestrictservercommands > ns_startup_args.txt
 del Northstar.release.v1.11.1.zip
