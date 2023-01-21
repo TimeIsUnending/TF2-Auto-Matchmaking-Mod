@@ -1,0 +1,25 @@
+{
+    "Name": "Auto Matchmaking Mod",
+    "Description": "A mod for Titanfall 2 that makes matchmaking a lot easier.\n\nMade by TimeIsUnending, the person who actually decided making something like this was needed and did something about it\n:)",
+    "Version": "1.0.5",
+    "LoadPriority": "0",
+    "ConVars": [
+        {
+            "Name": "am_enabled",
+            "DefaultValue": "1"
+        },
+        {
+            "Name": "am_matchmaking",
+            "DefaultValue": "0"
+        }
+    ],
+    "Scripts": [
+        {
+            "Path": "am.gnut",
+            "RunOn": "LOBBY",
+            "ClientCallback": {
+                "After": "AM_Init"
+            }
+        }
+    ]
+}
