@@ -20,6 +20,14 @@
             "ClientCallback": {
                 "After": "AM_Init"
             }
+        },
+        {
+            "Path": "client/cl_automatchmaking.nut",
+            "RunOn": "CLIENT",
+            "ClientCallback":
+            {
+                "Before": "AM_Client_Init"
+            }
         }
     ]
 }
